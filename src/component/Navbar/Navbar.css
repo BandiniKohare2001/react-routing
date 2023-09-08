@@ -1,0 +1,10 @@
+body{
+    margin: 0%;
+}
+.nav{
+    background-color: blue;
+    color: #ffffff;
+    margin: 0%;
+    padding: 10px;
+    height: 80px;
+}
