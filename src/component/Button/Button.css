@@ -1,8 +1,12 @@
-.btn{
-    background-color: rgb(144, 144, 203);
-    color: white;
+.menu{
+   background-color: rgb(84, 244, 15);
     border-radius: 20px;
-    font-size: 18px;
-    padding:10px;
-    margin: 60px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    border: none;
+    width: 130px;
+    font-weight: bold;
+    
 }

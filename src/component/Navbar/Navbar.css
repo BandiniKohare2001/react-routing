@@ -1,10 +1,51 @@
-body{
+.nav {
+    background-color: rgb(84, 244, 15);
+    padding: 5px;
+    height: 60px;
+    display: flex;
     margin: 0%;
+   
+    width: 100%;
+    margin-top: -10px;
+    margin-right: -20px;
+    margin-left: -20px;
 }
-.nav{
-    background-color: blue;
-    color: #ffffff;
-    margin: 0%;
-    padding: 10px;
-    height: 80px;
+
+.brand {
+    font-size: 45px;
+    margin-top: -1px;
+    font-weight: bold;
+    margin-left: 70px;
+
+    margin-bottom: auto;
+}
+
+.menu-text {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.menu{
+  
+   margin-left: 50px;
+ text-decoration: none;
+
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   
+}
+
+.list-items {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0.5px;
+    background-color: red;
 }
