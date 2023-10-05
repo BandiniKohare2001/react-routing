@@ -1,14 +1,11 @@
 .nav {
-    background-color: rgb(84, 244, 15);
+   background-color: rgb(141, 224, 15);
     padding: 5px;
     height: 60px;
     display: flex;
-    margin: 0%;
-   
+    margin: 0%; 
     width: 100%;
-    margin-top: -10px;
-    margin-right: -20px;
-    margin-left: -20px;
+
 }
 
 .brand {

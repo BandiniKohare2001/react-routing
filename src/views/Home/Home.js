@@ -3,13 +3,16 @@ import Navbar from "../../component/Navbar/Navbar";
 
 import Card from "../../component/Cards/Card";
 import Footer from "../../component/Footer/Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Home() {
     return (
         <div className="container">
             <Navbar />
             <img className="poster-img" src="https://shutterflywpe.wpenginepowered.com/wp-content/uploads/2018/08/family-and-love.jpg" alt="poster-img"/>
-            <h1 className="h1">Bandhe Raho Ristho Ke Dhage Me With Bandini</h1>
+            <h1 className="h1">Bandhe Raho Ristho Ke Dhage Me With Bandini</h1><FontAwesomeIcon icon={faHouse} className="text-danger" />
 
             <p className="para"> Family is one of the most important, if not the most important thing in our lives. Taking time every day to appreciate your loved ones for all that they do helps us to reconnect as a family. For that reason, we’ve provided a collection of our favorite family quotes and sayings that remind us of the love shared between family members. These family quotes and family sayings are perfect to celebrate your love for your family members. </p>
 
